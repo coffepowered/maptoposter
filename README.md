@@ -13,12 +13,35 @@ Generate beautiful, minimalist map posters for any city in the world.
 | USA          | San Francisco  | sunset          | <img src="posters/san_francisco_sunset_20260108_184122.png" width="250"> |
 | Spain        | Barcelona      | warm_beige      | <img src="posters/barcelona_warm_beige_20260108_172924.png" width="250"> |
 | Italy        | Venice         | blueprint       | <img src="posters/venice_blueprint_20260108_165527.png" width="250"> |
+| **Italy**    | **Modena**     | **terracotta**  | **See [Modena Variations](#modena-italia-variations) below** |
 | Japan        | Tokyo          | japanese_ink    | <img src="posters/tokyo_japanese_ink_20260108_165830.png" width="250"> |
 | India        | Mumbai         | contrast_zones  | <img src="posters/mumbai_contrast_zones_20260108_170325.png" width="250"> |
 | Morocco      | Marrakech      | terracotta      | <img src="posters/marrakech_terracotta_20260108_180821.png" width="250"> |
 | Singapore    | Singapore      | neon_cyberpunk  | <img src="posters/singapore_neon_cyberpunk_20260108_184503.png" width="250"> |
 | Australia    | Melbourne      | forest          | <img src="posters/melbourne_forest_20260108_181459.png" width="250"> |
 | UAE          | Dubai          | midnight_blue   | <img src="posters/dubai_midnight_blue_20260108_174920.png" width="250"> |
+
+## Modena, Italia Variations
+
+Modena showcases the power of theme and zoom level variations. We've created **8 different variations** with bright themes and different distances to highlight this beautiful Italian city:
+
+| Theme | Distance | Best For | Command |
+|-------|----------|----------|---------|
+| **Terracotta** | 8000m | Mediterranean warmth, Italian character | `python create_map_poster.py -c "Modena" -C "Italia" -t terracotta -d 8000` |
+| **Warm Beige** | 6000m | Vintage sepia, historic center close-up | `python create_map_poster.py -c "Modena" -C "Italia" -t warm_beige -d 6000` |
+| **Sunset** | 10000m | Golden hour vibes, wider perspective | `python create_map_poster.py -c "Modena" -C "Italia" -t sunset -d 10000` |
+| **Pastel Dream** | 8000m | Soft artistic minimalism | `python create_map_poster.py -c "Modena" -C "Italia" -t pastel_dream -d 8000` |
+| **Autumn** | 12000m | Seasonal warmth, full metropolitan view | `python create_map_poster.py -c "Modena" -C "Italia" -t autumn -d 12000` |
+| **Copper Patina** | 5000m | Aged metal aesthetic, intimate downtown | `python create_map_poster.py -c "Modena" -C "Italia" -t copper_patina -d 5000` |
+| **Ocean** | 8000m | Cool alternative bright theme | `python create_map_poster.py -c "Modena" -C "Italia" -t ocean -d 8000` |
+| **Feature Based** | 8000m | Classic high-contrast reference | `python create_map_poster.py -c "Modena" -C "Italia" -t feature_based -d 8000` |
+
+**Quick generation**: Generate all 8 variations at once:
+```bash
+python generate_modena_maps.py
+```
+
+See [MODENA_VARIATIONS.md](MODENA_VARIATIONS.md) for detailed descriptions of each variation, theme color schemes, and generation tips.
 
 ## Installation
 
@@ -62,6 +85,7 @@ python create_map_poster.py -c "Moscow" -C "Russia" -t noir -d 12000          # 
 python create_map_poster.py -c "Tokyo" -C "Japan" -t japanese_ink -d 15000    # Dense organic streets
 python create_map_poster.py -c "Marrakech" -C "Morocco" -t terracotta -d 5000 # Medina maze
 python create_map_poster.py -c "Rome" -C "Italy" -t warm_beige -d 8000        # Ancient layout
+python create_map_poster.py -c "Modena" -C "Italia" -t terracotta -d 8000     # Medieval UNESCO site
 
 # Coastal cities
 python create_map_poster.py -c "San Francisco" -C "USA" -t sunset -d 10000    # Peninsula grid
@@ -71,6 +95,12 @@ python create_map_poster.py -c "Mumbai" -C "India" -t contrast_zones -d 18000 # 
 # River cities
 python create_map_poster.py -c "London" -C "UK" -t noir -d 15000              # Thames curves
 python create_map_poster.py -c "Budapest" -C "Hungary" -t copper_patina -d 8000  # Danube split
+
+# Theme variations for one city (Modena example)
+python create_map_poster.py -c "Modena" -C "Italia" -t terracotta -d 8000     # Mediterranean warmth
+python create_map_poster.py -c "Modena" -C "Italia" -t warm_beige -d 6000     # Vintage close-up
+python create_map_poster.py -c "Modena" -C "Italia" -t sunset -d 10000        # Golden hour wide
+python create_map_poster.py -c "Modena" -C "Italia" -t pastel_dream -d 8000   # Artistic minimalism
 
 # List available themes
 python create_map_poster.py --list-themes
