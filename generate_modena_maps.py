@@ -16,13 +16,14 @@ from datetime import datetime
 import sys
 sys.path.insert(0, os.path.dirname(__file__))
 
+import create_map_poster
 from create_map_poster import (
     load_theme, create_gradient_fade, get_edge_colors_by_type,
     get_edge_widths_by_type, load_fonts, THEMES_DIR, FONTS_DIR, POSTERS_DIR
 )
 
-# Modena, Italia coordinates
-MODENA_COORDS = (44.6471, 10.9252)
+# Modena, Italia coordinates (corrected)
+MODENA_COORDS = (44.65596603701705, 10.923640381129479)
 CITY = "Modena"
 COUNTRY = "Italia"
 
@@ -52,6 +53,9 @@ def create_poster(city, country, point, dist, output_file, THEME, FONTS):
     print(f"\nGenerating map for {city}, {country}...")
     print(f"Theme: {THEME.get('name', 'Unknown')}")
     print(f"Distance: {dist}m")
+    
+    # Set the global THEME variable in create_map_poster module so imported functions can access it
+    create_map_poster.THEME = THEME
     
     # Progress bar for data fetching
     with tqdm(total=3, desc="Fetching map data", unit="step", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}') as pbar:
