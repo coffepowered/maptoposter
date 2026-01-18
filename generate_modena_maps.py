@@ -7,11 +7,8 @@ This script bypasses the geocoding step by using hardcoded coordinates
 import osmnx as ox
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-import matplotlib.colors as mcolors
-import numpy as np
 from tqdm import tqdm
 import time
-import json
 import os
 from datetime import datetime
 
