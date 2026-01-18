@@ -23,7 +23,7 @@ Generate beautiful, minimalist map posters for any city in the world.
 
 ## Modena, Italia Variations
 
-Modena showcases the power of theme and zoom level variations. We've created **8 different variations** with bright themes and different distances to highlight this beautiful Italian city:
+Modena showcases the power of theme and zoom level variations. We've created **12 different variations** with bright themes and different distances to highlight this beautiful Italian city:
 
 ### Gallery
 
@@ -41,6 +41,17 @@ Modena showcases the power of theme and zoom level variations. We've created **8
 |:-----------:|:-------------------:|
 | <img src="posters/modena_ocean_20260118_103650.png" width="250"> | <img src="posters/modena_feature_based_20260118_103716.png" width="250"> |
 | Cool alternative | Classic high-contrast |
+
+### Historic Center - Autumn Theme Series
+
+**4 additional variations focusing on the historic center of Modena** with the autumn theme at progressively closer zoom levels:
+
+| Autumn (3km) | Autumn (2km) | Autumn (1km) | Autumn (500m) |
+|:------------:|:------------:|:------------:|:-------------:|
+| <img src="posters/modena_autumn_20260118_111053.png" width="200"> | <img src="posters/modena_autumn_20260118_111029.png" width="200"> | <img src="posters/modena_autumn_20260118_111011.png" width="200"> | <img src="posters/modena_autumn_20260118_110849.png" width="200"> |
+| Immediate downtown | Dense historic streets | Core city center | Ultra-detailed center |
+
+These variations provide an intimate view of Modena's UNESCO World Heritage historic center, revealing the medieval street patterns and architectural density at increasingly detailed scales.
 
 ### Commands
 
