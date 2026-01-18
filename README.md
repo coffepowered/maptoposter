@@ -13,7 +13,7 @@ Generate beautiful, minimalist map posters for any city in the world.
 | USA          | San Francisco  | sunset          | <img src="posters/san_francisco_sunset_20260108_184122.png" width="250"> |
 | Spain        | Barcelona      | warm_beige      | <img src="posters/barcelona_warm_beige_20260108_172924.png" width="250"> |
 | Italy        | Venice         | blueprint       | <img src="posters/venice_blueprint_20260108_165527.png" width="250"> |
-| **Italy**    | **Modena**     | **terracotta**  | **See [Modena Variations](#modena-italia-variations) below** |
+| **Italy**    | **Modena**     | **terracotta**  | <img src="posters/modena_terracotta_20260118_102919.png" width="250"> |
 | Japan        | Tokyo          | japanese_ink    | <img src="posters/tokyo_japanese_ink_20260108_165830.png" width="250"> |
 | India        | Mumbai         | contrast_zones  | <img src="posters/mumbai_contrast_zones_20260108_170325.png" width="250"> |
 | Morocco      | Marrakech      | terracotta      | <img src="posters/marrakech_terracotta_20260108_180821.png" width="250"> |
@@ -24,6 +24,25 @@ Generate beautiful, minimalist map posters for any city in the world.
 ## Modena, Italia Variations
 
 Modena showcases the power of theme and zoom level variations. We've created **8 different variations** with bright themes and different distances to highlight this beautiful Italian city:
+
+### Gallery
+
+| Terracotta (8km) | Warm Beige (6km) | Sunset (10km) |
+|:----------------:|:----------------:|:-------------:|
+| <img src="posters/modena_terracotta_20260118_102919.png" width="250"> | <img src="posters/modena_warm_beige_20260118_102956.png" width="250"> | <img src="posters/modena_sunset_20260118_103020.png" width="250"> |
+| Mediterranean warmth | Vintage sepia | Golden hour vibes |
+
+| Pastel Dream (8km) | Autumn (12km) | Copper Patina (5km) |
+|:------------------:|:-------------:|:-------------------:|
+| <img src="posters/modena_pastel_dream_20260118_103307.png" width="250"> | <img src="posters/modena_autumn_20260118_103332.png" width="250"> | <img src="posters/modena_copper_patina_20260118_103528.png" width="250"> |
+| Soft artistic minimalism | Seasonal warmth | Aged metal aesthetic |
+
+| Ocean (8km) | Feature Based (8km) |
+|:-----------:|:-------------------:|
+| <img src="posters/modena_ocean_20260118_103650.png" width="250"> | <img src="posters/modena_feature_based_20260118_103716.png" width="250"> |
+| Cool alternative | Classic high-contrast |
+
+### Commands
 
 | Theme | Distance | Best For | Command |
 |-------|----------|----------|---------|
